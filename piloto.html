@@ -16,7 +16,8 @@
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>MotoGP Desktop</h1>
+     <header>
+          <h1><a href="index.html" title="Vuelta al inicio">MotoGP Desktop</a></h1>
     <nav>
         <a href="index.html" title="Información del inicio">Inicio</a>
         <a href="piloto.html" title="Información del piloto">Piloto</a>
@@ -26,71 +27,97 @@
         <a href="juegos.html" title="Información de los juegos">Juegos</a>
         <a href="ayuda.html" title="Información de la ayuda">Ayuda</a>
     </nav>
-    <h2>Franco Morbidelli</h2>
-    <p>Franco Morbidelli es un piloto de motociclismo italiano-brasileño. Ha sido campeón del Campeonato Mundial de Motociclismo en la categoría de Moto2 en 2017 y subcampeón de MotoGP en 2020 con el equipo Petronas Yamaha. En 2025 compite en el Pertamina Enduro VR46 Racing Team con Fabio Di Giannantonio. En 2013 se coronó campeón de Europa en Superstock 600 con una Kawasaki ZX-6R.</p>
-    <picture>
-        <source media="(max-width: 465px)" srcset="multimedia/imagen_morbidelli_movil.jpg"/>
-        <source media="(max-width: 799px)" srcset="multimedia/imagen_morbidelli_tablet.jpg"/>
-        <source media="(min-width: 800px)" srcset="multimedia/imagen_morbidelli_pc.jpg"/>
-        <img src="multimedia/imagen_morbidelli_pc.jpg" alt="imagen de Franco Morbidelli con gafas de sol y una gorra"/>
-    </picture>
-  
-   <ul>
-        <li>Fecha de nacimiento: 4 de diciembre de 1994</li>
-        <li>Lugar de nacimiento: Roma, Italia</li>
-        <li>Altura: 1,76 m</li>
-        <li>Peso: 64 kg</li>
-        <li>Moto: Ducati Desmosedici GP24</li>
-        <li>Dorsal: 21</li>
-    </ul>
-    <video controls preload="auto">
-        <source src="multimedia/franco_morbidelli_video1.mp4" type="video/mp4"/>
-        <source src="multimedia/franco_morbidelli_video2.webm" type="video/webm"/>
-    </video>
-    <ol>
-        <li>Thai Honda PTT Gresini Moto2</li>
-        <li>Italtrans Racing Team</li>
-        <li> EG 0,0 Marc VDS</li>
-        <li>Petronas Yamaha SRT</li>
-        <li>Monster Energy Yamaha MotoGP</li>
-        <li>Prima Pramac Racing</li>
-        <li>Pertamina Enduro VR46 Racing Team</li>
-    </ol>
-    <audio controls>
-        <source src="multimedia/audio_motogp1.mp3" type="audio/mp3"/>
-        <source src="multimedia/audio_motogp2.wav" type="audio/wav"/>
-    </audio>
-    <dl>
-        <dt>Chicane</dt>
-            <dd>Curvas pronunciadas en un circuito para reducir la velocidad de las motos</dd>
-        <dt>Pole</dt>
-            <dd>Posición de privilegio en la parrilla de salida de una carrera de MotoGP, obtenida tras la sesión de clasificación</dd>
-        <dt>Tacómetro</dt>
-            <dd>Herramienta para saber las revoluciones del motor</dd>
-        <dt>Control de tracción</dt>
-            <dd>Sistema electrónico que utiliza sensores en las ruedas para detectar si la rueda trasera está girando demasiado rápido</dd>
-        <dt>Apex</dt>
-            <dd>Punto interior de una curva, y tomar una buena trazada pasando por él es clave para levantarse de la moto y acelerar rápidamente</dd>
-    </dl>
+     </header>
+     <p>Estás en: <a href="index.html" title="Miga inicio">Inicio</a> >> Piloto</p>
+     <main>
+        <section>
+            <h2>Biografía</h2>
+            <p>Franco Morbidelli es un piloto de motociclismo italiano-brasileño. Ha sido campeón del Campeonato Mundial de Motociclismo en la categoría de Moto2 en 2017 y subcampeón de MotoGP en 2020 con el equipo Petronas Yamaha. En 2025 compite en el Pertamina Enduro VR46 Racing Team con Fabio Di Giannantonio. En 2013 se coronó campeón de Europa en Superstock 600 con una Kawasaki ZX-6R.</p>
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagen_morbidelli_movil.jpg"/>
+                <source media="(max-width: 799px)" srcset="multimedia/imagen_morbidelli_tablet.jpg"/>
+                <source media="(min-width: 800px)" srcset="multimedia/imagen_morbidelli_pc.jpg"/>
+                <img src="multimedia/imagen_morbidelli_pc.jpg" alt="imagen de Franco Morbidelli con gafas de sol y una gorra"/>
+            </picture>
+        </section>
+        <section>
+            <h2>Datos personales y deportivos</h2>
+            <ul>
+                <li>Fecha de nacimiento: 4 de diciembre de 1994</li>
+                <li>Lugar de nacimiento: Roma, Italia</li>
+                <li>Altura: 1,76 m</li>
+                <li>Peso: 64 kg</li>
+                <li>Moto: Ducati Desmosedici GP24</li>
+                <li>Dorsal: 21</li>
+            </ul>
+            <video controls preload="auto">
+                <source src="multimedia/franco_morbidelli_video1.mp4" type="video/mp4"/>
+                <source src="multimedia/franco_morbidelli_video2.webm" type="video/webm"/>
+            </video>
+        </section>
+        <section>
+            <h2>Equipos</h2>
+            <ol>
+                <li>Thai Honda PTT Gresini Moto2</li>
+                <li>Italtrans Racing Team</li>
+                <li>EG 0,0 Marc VDS</li>
+                <li>Petronas Yamaha SRT</li>
+                <li>Monster Energy Yamaha MotoGP</li>
+                <li>Prima Pramac Racing</li>
+                <li>Pertamina Enduro VR46 Racing Team</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="multimedia/audio_motogp1.mp3" type="audio/mp3"/>
+                <source src="multimedia/audio_motogp2.wav" type="audio/wav"/>
+            </audio>
+        </section>
+        
+    <aside>
+        <h2>Glosario MotoGP</h2>
+        <dl>
+            <dt>Chicane</dt>
+                <dd>Curvas pronunciadas en un circuito para reducir la velocidad de las motos</dd>
+            <dt>Pole</dt>
+                <dd>Posición de privilegio en la parrilla de salida de una carrera de MotoGP, obtenida tras la sesión de clasificación</dd>
+            <dt>Tacómetro</dt>
+                <dd>Herramienta para saber las revoluciones del motor</dd>
+            <dt>Control de tracción</dt>
+                <dd>Sistema electrónico que utiliza sensores en las ruedas para detectar si la rueda trasera está girando demasiado rápido</dd>
+            <dt>Apex</dt>
+                <dd>Punto interior de una curva, y tomar una buena trazada pasando por él es clave para levantarse de la moto y acelerar rápidamente</dd>
+        </dl>
+    </aside>
+   <section>
+    <h2>Resultados 2024</h2>
     <table>
         <caption>Resultados Franco Morbidelli temporada 2024</caption>
         <tr>
-            <th>Puntos obtenidos</th>
-            <th>Posicion en la clasificación final</th>
-            <th>Poles</th>
-            <th>Victorias</th>
-            <th>Podios</th>
+            <th scope="col" id="th-puntos">Puntos obtenidos</th>
+            <th scope="col" id="th-posicion">Posición en la clasificación final</th>
+            <th scope="col" id="th-poles">Poles</th>
+            <th scope="col" id="th-victorias">Victorias</th>
+            <th scope="col" id="th-podios">Podios</th>
         </tr>
         <tr>
-            <td>173</td>
-            <td>9º</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td headers="th-puntos">173</td>
+            <td headers="th-posicion">9º</td>
+            <td headers="th-poles">0</td>
+            <td headers="th-victorias">0</td>
+            <td headers="th-podios">0</td>
         </tr>
     </table>
-    <a href="https://es.wikipedia.org/wiki/Franco_Morbidelli">Enlace a más información sobre Franco Morbidelli</a>
-    <a href="https://www.motogp.com/es">Enlace a página oficial de la MotoGP</a>
-    <p>Franco Morbidelli también es hijo de Livio Morbidelli, expiloto de motociclismo, hizo su debut en el Campeonato de Europa de Superstock 600 en 2011, corriendo cuatro carreras a bordo de una Yamaha YZF-R6 del equipo Forward Racing Jr. En 2012 terminó en el sexto lugar y en 2013 se consagró campeón Europeo con una Kawasaki ZX-6R del equipo San Carlo Italia.</p>
+   </section>
+    <section>
+        <h2>Más información</h2>
+        <a href="https://es.wikipedia.org/wiki/Franco_Morbidelli">Enlace a más información sobre Franco Morbidelli</a>
+        <a href="https://www.motogp.com/es">Enlace a página oficial de la MotoGP</a>
+        <p>Franco Morbidelli también es hijo de Livio Morbidelli, expiloto de motociclismo, hizo su debut en el Campeonato de Europa de Superstock 600 en 2011, corriendo cuatro carreras a bordo de una Yamaha YZF-R6 del equipo Forward Racing Jr. En 2012 terminó en el sexto lugar y en 2013 se consagró campeón Europeo con una Kawasaki ZX-6R del equipo San Carlo Italia.</p>
+    </section>
+  
+      </main>
+  
 </body>
 </html>
