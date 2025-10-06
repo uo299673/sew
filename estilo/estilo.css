@@ -16,33 +16,36 @@ header{
 /*Especificidad 002*/
 header a{
     color: #FFFFFF;
+    text-decoration: none;
 }
 /*Especificidad 012*/
 header a:hover{
     color: #FFFF00;
+    
 }
 /*Especificidad 001*/
 h1{
     color: #FFFFFF;
 }
-/*Especificidad 002*/
-p a{
+/*Especificidad 012*/
+p a:first-of-type{
    color: #FFFFFF;
+   font-size: larger;
 }
 /*Especificidad 012*/
 p a:hover{
     color: #FFFF00;
 }
 /*Especificidad 001*/
-nav{
+.active{
     color: #FFFFFF;
 }
 /*Especificidad 002*/
-nav a{
+.active a{
    color: #FFFFFF;
 }
 /*Especificidad 012*/
-nav a:hover{
+.active a:hover{
     color: #FFFF00;
 }
 
