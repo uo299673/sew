@@ -32,6 +32,11 @@ p a:first-of-type{
    color: #FFFFFF;
    font-size: larger;
 }
+/*Especificidad 011*/
+p:first-of-type{
+     color: #FFFFFF;
+   font-size: larger;
+}
 /*Especificidad 012*/
 p a:hover{
     color: #FFFF00;
@@ -47,6 +52,19 @@ p a:hover{
 /*Especificidad 012*/
 .active a:hover{
     color: #FFFF00;
+}
+/*Especificidad 001*/
+Video,audio {
+ width:100%;
+ height:auto;
+}
+
+/*Especificidad 011*/
+audio[controls]{
+    display: block; /* fuerza que se muestre como caja visible */
+    box-sizing: border-box;
+    min-height: 2.5rem; /* deja un alto mínimo para los controles */
+    width: 100%; /* mantener ancho completo como la regla general */
 }
 
 
